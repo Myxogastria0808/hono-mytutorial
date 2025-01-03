@@ -1,0 +1,22 @@
+name = "r2test"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VAR = "my-variable"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+[[r2_buckets]]
+#アクセスする際の変数名
+binding = "HOGEHOGE"
+#bucketの名前
+bucket_name = "hogehoge"
+#bucketの名前 開発用
+preview_bucket_name = "hogehoge-preview"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
